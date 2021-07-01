@@ -10,8 +10,8 @@ p {
 }
 
 h1,h2,h3 {
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 46px;
+    font-weight: 700;
     margin-top: 80px;
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 img {
-    min-width: 400px;
+    width: 100%;
     padding-top: 80px;
 }
 
@@ -55,9 +55,13 @@ img {
     margin-bottom: 0;
 }
 
+.title-image>h2 {
+    word-break: break-all;
+}
 /*footer*/
 #footer {
     margin-top: 14px;
+    margin-bottom: 50px;
 }
 
 #footer a {
